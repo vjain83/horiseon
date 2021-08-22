@@ -1,2 +1,1 @@
-# horiseon
-Website for Horiseon containing refactored code.
+# Code Refactor Starter Code
