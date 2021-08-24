@@ -15,7 +15,7 @@ The challenge was to refactor the existing code to make the website accessible a
 ## Things Changed
 - Followed semantic and logical HTML structure
 - Refactored and structured CSS
-- Fixed sequuence of headings
+- Fixed sequence of headings
 - Fixed broken links
 - Added alt text for images to increase accessibility
 - Added viewport in meta character
