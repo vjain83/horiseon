@@ -33,7 +33,7 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.7vw;
     margin-left: 30px;
-    }
+}
 
 header nav ul li{
     display: inline-block;
@@ -50,6 +50,7 @@ header nav ul li a {
 p {
     font-size: 16px;
 }
+
 /* Main elements styling */
 .hero {
     margin-bottom: 25px;
@@ -59,31 +60,38 @@ p {
     height: 800px;
     width: 100%;
 }
+
+/* Stying for each content secion */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Stying for each content secion */
-.main-content h2{
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.main-content img {
-    max-height: 200px;
-    float: left;
-    margin-right: 25px;
-}
-
-.main-content {
+.content section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+}
+
+.image-left img {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+.image-right img {
+    max-height: 200px;
+    float: right;
+    margin-right: 25px;
 }
 
 /* Stying for aside elements */
@@ -99,21 +107,22 @@ p {
     font-size: 1.5vw;
 }
 
-.benefit{
+.benefits aside {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit  h3 {
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
 
 /* Footer styling */
 footer {
